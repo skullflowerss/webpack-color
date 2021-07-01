@@ -1,4 +1,4 @@
-//import "./style.scss"
+import "./style.scss"
 import { colorMaker } from "./colorMaker.js";
 const btn = document.getElementById('btn')
 const color = document.querySelector('.color')

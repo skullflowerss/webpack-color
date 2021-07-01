@@ -1,1 +1,0 @@
-(()=>{"use strict";const t=[0,1,2,3,4,5,6,7,8,9,"A","B","C","D","E","F"],e=document.getElementById("btn"),o=document.querySelector(".color");e.addEventListener("click",(()=>{const n=(()=>{let e="#";for(let o=0;o<6;o++)e+=t[Math.floor(Math.random()*t.length)];return e})();document.body.style.backgroundColor=n,o.textContent=n,e.style.backgroundColor=n}))})();
