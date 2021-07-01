@@ -1,0 +1,34 @@
+$primary: teal;
+$danger: purple;
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+      line-height: 1.5;
+      font-size: 0.875rem;
+      font-family: 'Roboto Mono', monospace;
+  }
+  
+  .navbar-fixed{
+      display: flex;
+      justify-content: center;
+  }
+  
+  
+  .main{
+      min-height: calc(100vh - 9rem);
+      display: grid;
+      place-items: center;
+  }
+  
+  .container{
+      text-align: center;
+  }
+  
+  .btn{
+      border: 1px solid black;
+  }
